@@ -1,0 +1,30 @@
+.box{
+    width: 380px;
+    height: 350px;
+    background: cadetblue;
+    margin: 200px auto auto auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.inputField{
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+    margin-top: 40px;
+}
+.location{
+    text-transform: capitalize;
+    font-size: 48px;
+}
+.dev-info{
+    color: brown;
+    text-align: center;
+    margin-top: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
