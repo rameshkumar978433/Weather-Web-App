@@ -10,7 +10,7 @@ const Tempapp = () => {
         const fetchApi = async () => {
             const url = `http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=dca64f7da4d1e76661844b426b9cf1f4`;
             
-            const response = await fetch(url);
+            const response = await fetchApi(url);
             const resJson = await response.json();
             
             setCity(resJson.main);
